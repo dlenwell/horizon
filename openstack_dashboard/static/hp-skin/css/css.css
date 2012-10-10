@@ -1,0 +1,64 @@
+/*
+@author David Lenwell
+
+@note	Only modifications needed to the default horizon skin for hp branding. 
+
+*/
+
+h1.brand a 
+{
+	/*
+	Trademarks
+
+	HP, COMPAQ and any other product or service name or slogan or logo contained in the 
+	HP Websites are trademarks of HP and its suppliers or licensors and may not be copied, 
+	imitated, or used, in whole or in part, without the prior written permission of HP or 
+	the applicable trademark holder. Ownership of all such trademarks and the goodwill 
+	associated therewith remains with HP or the applicable trademark holder. You may not 
+	use any metatags or any other "hidden text" utilizing any name, trademark, or product 
+	or service name of HP without HP's prior written permission. In addition, the look 
+	and feel of the Site (including all page headers, custom graphics, button icons, and 
+	scripts) is the service mark, trademark, and/or trade dress of HP and may not be 
+	copied, imitated, or used (in whole or in part) without HP's prior written permission.
+	Reference to any products, services, processes, or other information, by trade name, 
+	trademark, or otherwise does not constitute or imply endorsement, sponsorship, or
+	recommendation thereof by HP.
+	
+	http://www8.hp.com/us/en/privacy/terms-of-use.html
+	
+	*/
+	
+	background:  url('/static/hp-skin/img/hp-cloud-logo.png') top left no-repeat;
+    height: 65px;
+    margin-bottom: 0px;
+}
+
+body
+{
+    background-image: url('/static/hp-skin/img/background-hatch.png');
+}
+
+
+.topbar 
+{
+    background-image: url('/static/hp-skin/img/page-header-background.png');
+    box-shadow: #CDCDCD 0 1px 2px 0;
+}
+
+.sidebar
+{
+    background-color:  #DDE2E6;
+    color: black;
+
+}
+
+.sidebar .nav-tabs li.active a {
+    background-color: #DDE2E6;
+}
+
+#splash .login 
+{
+    background: white url('/static/hp-skin/img/hp-cloud-logo.png') no-repeat center 35px;
+    padding-top: 60px;
+
+}
